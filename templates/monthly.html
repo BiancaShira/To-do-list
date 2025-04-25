@@ -1,0 +1,21 @@
+{%extends "base.html" %}
+{%block title%}
+Monthly To Do List
+{%endblock%}
+
+              {%block content%}
+              <h1>Monthly To Do list</h1>
+              {% for monthly in monthly_to_do%}
+              <h1>{{monthly}}</h1>
+              {%endfor%}
+              <style>
+                            body{
+                                          background-color: purple;
+                                          color: aqua;
+                                          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                          text-align: center;
+                                          text-decoration: line-through;
+
+                            }
+              </style>
+              {%endblock%}

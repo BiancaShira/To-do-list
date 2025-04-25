@@ -1,0 +1,18 @@
+{%extends "base.html" %}
+{%block title%}
+Daily To Do List
+{%endblock%}
+
+              {%block content%}
+              <h1>Daily To Do List </h1>
+              {% for daily in daily_to_do%}
+              <h1>{{daily}}</h1>
+              {%endfor%}
+              <style>
+                            body{
+                                          background-color: pink;
+                                          text-align: center;
+                                          color: black;
+                            }
+              </style>
+              {%endblock%}

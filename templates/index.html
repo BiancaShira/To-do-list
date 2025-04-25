@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>To do list</title>
+</head>
+<body>
+              <nav>
+                            <div style="font-size: larger;font-weight: bold; display: flex;"> TO DO LIST</div>
+              <ul >
+                            <li class="btn-login">sign-up</li>
+                            <li class="btn-login">log in</li>
+                  </ul>
+              </nav>
+       <h1 style="color: rgb(255, 0, 93); font-weight: 700;font-size: large; text-align: center;">Heyyy Bee</h1>  <br>   
+       <div class="buttons">
+              <button class="btn" id="button1"><a href="/daily"></a>daily</button><br><br>
+              <button class="btn" id="button2"><a href="/weekly"></a>weekly</button><br><br>
+              <button class="btn" id="button3"><a href="/monthly"></a>monthly</button>
+        
+       </div>  
+       <script>
+              
+       </script>
+</body>
+<style>
+              body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #E7D0F5;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: purple;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+        ul{
+            display: flex;
+            gap: 12px;
+            buttons{
+              color: pink;
+            }
+        }
+        .buttons{
+              text-align: center;
+              padding: 16px ;
+
+        }
+        
+        a:hover{
+
+color: rgb(132, 1, 99);
+transition: all .5s ;
+text-decoration: underline;
+
+}
+
+.btn-login{
+
+padding: 8px 16px;
+background-color: rgb(182, 17, 97);
+color: white;
+text-align: center;
+border-radius: 12px;
+font-size: 18px;
+font-weight: 700;
+
+}
+
+.btn:hover{
+text-decoration: none;
+background-color: rgb(148, 50, 153);
+color: white;
+}
+</style>
+</html>

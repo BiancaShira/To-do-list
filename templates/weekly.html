@@ -1,0 +1,20 @@
+{%extends "base.html" %}
+{%block title%}
+Weekly To Do List
+{%endblock%}
+
+              {%block content%}
+              <h1>Weekly To Do List<h1>
+              {% for weekly in weekly_to_do%}
+              <h1>{{weekly}}</h1>
+              {%endfor%}
+              <style>
+                            body{
+                                          background-color: orange ;
+                                          color: red;
+                                          text-decoration: dotted;
+                                          text-align: center;
+
+                            }
+              </style>
+              {%endblock%}
